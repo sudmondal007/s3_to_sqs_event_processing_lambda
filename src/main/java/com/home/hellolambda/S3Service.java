@@ -1,4 +1,4 @@
-package com.home.hellolambda.com.home.hellolambda;
+package com.home.hellolambda;
 
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 import com.amazonaws.services.lambda.runtime.logging.LogLevel;

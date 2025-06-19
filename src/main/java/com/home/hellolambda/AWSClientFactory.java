@@ -1,4 +1,4 @@
-package com.home.hellolambda.com.home.hellolambda;
+package com.home.hellolambda;
 
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.s3.S3Client;

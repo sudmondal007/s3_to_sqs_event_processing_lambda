@@ -1,4 +1,4 @@
-package com.home.hellolambda.com.home.hellolambda;
+package com.home.hellolambda;
 
 import java.util.List;
 
