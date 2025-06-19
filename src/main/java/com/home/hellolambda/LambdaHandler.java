@@ -70,7 +70,7 @@ public class LambdaHandler implements RequestHandler<SQSEvent, String> {
 			logger.log("processS3Files :: s3BucketName= " + s3BucketName + "; s3objectKey=" + s3objectKey, LogLevel.INFO);
 			
 			// do further processing
-			ResponseBytes<GetObjectResponse> objectResponse = S3Service.getInstance().getS3FileObject(s3objectKey, s3BucketName, logger);
+			ResponseBytes<GetObjectResponse> objectResponse = S3Service.getS3FileObject(s3objectKey, s3BucketName, logger);
 			
 			if(objectResponse != null) {
 				byte[] objectBytes = objectResponse.asByteArray();
